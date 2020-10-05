@@ -3,15 +3,15 @@ a {
 }
 
 h1 {
-  font: bold 66px/87px 'pt_serif';
+  font: bold 66px/87px'pt_serif';
 }
 
 p {
-  font: normal 22px/26px roboto;
+  font: normal 22px/26pxroboto;
 }
 
 button {
-  font: 500 18px/21px roboto;
+  font: 500 18px/21pxroboto;
 }
 
 body {
@@ -32,7 +32,7 @@ body {
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/31px 'pt_serif';
+  font: bold 24px/31px'pt_serif';
 }
 
 .logo__circle {
