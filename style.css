@@ -3,7 +3,7 @@ a {
 }
 
 h1 {
-  font: bold 66px/87px 'pt_serif';
+  font: bold 66px/87px 'pt_serif', sans-serif;
 }
 
 p {
