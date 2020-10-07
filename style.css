@@ -126,13 +126,13 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   border-radius: 4px;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 .main__button:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .main__title-text_highlight {
-  background: #ECF3FF;
+  background: #ecf3ff;
 }
