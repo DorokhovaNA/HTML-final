@@ -1,6 +1,7 @@
 <html>
   <head>
     <meta  charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="fonts.css">
     <link  href="style.css"  rel="stylesheet">
   </head>
@@ -10,15 +11,21 @@
         <div class="logo">
           <div class="logo__circle logo__circle_color_dark-blue"></div>
           <div class="logo__circle logo__circle_color_blue"></div>
-          app.creation
-          </div>
-        <nav class="menu">
-          <a class="menu__item" href="#">start</a>
-          <a class="menu__item" href="#">services</a>
-          <a class="menu__item" href="#">about us</a>
-          <a class="menu__item menu__item_active" href="#">blog</a>
-          <a class="menu__item" href="#">contact us</a>
-        </nav>
+          <span class="logo__name">app.creation</span>
+        </div>
+        <div class="burg-menu">
+          <input id='menucheck' type="checkbox"/>
+          <label class="menu__btn" for="menucheck">
+            <span></span>
+          </label>
+          <nav class="menu__box">
+            <a class="menu__item" href="#">start</a>
+            <a class="menu__item" href="#">services</a>
+            <a class="menu__item" href="#">about</a>
+            <a class="menu__item menu__item_active" href="#">blog</a>
+            <a class="menu__item" href="#">contact us</a>
+          </nav>
+        </div>
       </header>
       <section class="main">
         <h1 class="main__title">Building an App <span class="main__title-text_highlight">Without Design Expertise?</span></h1>
