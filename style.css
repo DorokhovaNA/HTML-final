@@ -241,10 +241,6 @@ body {
     background-size: 47%;
     background-position-y: -14px;
   }
-
-  .main__title {
-    max-block-size: 90%;
-  }
 }
 
 @media (max-width: 768px) {
