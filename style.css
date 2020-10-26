@@ -235,7 +235,6 @@ body {
 }
 
 @media (max-width: 864px) and (min-width: 769px) {
-
   .main {
     padding: 0 54% 193px 0;
     background-size: 46%;
@@ -248,7 +247,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
   .body {
     height: 100%;
   }
