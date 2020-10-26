@@ -5,6 +5,7 @@ body {
 .wrapper {
   margin: auto;
   width: 80%;
+  height: initial;
 }
 
 .header {
@@ -134,14 +135,17 @@ body {
   font: normal 18px/21px robotomedium, sans-serif;
   color: #fff;
   background: #0056ec;
+  background-size: 200% auto;
   padding: 20px 28px;
   text-decoration: none;
   border-radius: 4px;
-  transition: opacity 0.5s;
+  transition: 0.5s;
+  box-shadow: 0 0 20px #eee;
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
 }
 
 .main__button:hover {
-  opacity: 0.5;
+  background-position: right center;
 }
 
 .main__title-text_highlight {
@@ -230,7 +234,23 @@ body {
   }
 }
 
+@media (max-width: 864px) and (min-width: 769px) {
+  .main {
+    padding: 0 54% 193px 0;
+    background-size: 46%;
+    background-position-y: -14px;
+  }
+
+  .main__title {
+    font: bold 45px/60px 'pt_serifbold', sans-serif;
+  }
+}
+
 @media (max-width: 768px) {
+  .body {
+    height: 100%;
+  }
+
   .menu {
     display: none;
   }
@@ -241,34 +261,42 @@ body {
   }
 
   .header {
-    margin-bottom: 20px;
+    height: 11vh;
+    margin-bottom: 2vh;
   }
 
   .main {
+    width: 100%;
+    height: 44vh;
+    padding: 39vh 0 0;
     text-align: center;
-    padding: 69% 0 0;
-    background-size: 85%;
-    background-position: center -4px;
+    background-size: 42vh;
+    background-position: top center;
   }
 
   .main__title {
-    max-width: 267px;
-    height: 96px;
-    padding-top: 3px;
-    padding-left: 32px;
-    margin-bottom: 56px;
+    width: 99%;
+    max-height: 12%;
+    text-align: center;
+    margin: 0 auto 17vh auto;
+    padding-left: 1%;
     font: bold 30px/40px 'pt_serifbold', sans-serif;
   }
 
   .main__subtitle {
-    max-width: 250px;
-    margin-bottom: 39px;
-    padding-left: 40px;
+    max-width: 76%;
+    max-height: 7%;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 9vh;
+    padding-left: 12%;
+    padding-right: 12%;
     font: 500 16px/19px robotomedium, sans-serif;
   }
 
   .main__button {
-    padding-left: 14px;
+    height: 5%;
+    padding-left: 4%;
     font: 500 14px/16px robotomedium, sans-serif;
   }
 
